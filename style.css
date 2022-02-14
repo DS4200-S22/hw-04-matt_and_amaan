@@ -1,8 +1,26 @@
 body {
-    
     font-family: Arial;
 }
 
+h1 {
+    text-align: center;
+}
+
+svg {
+    height: 200;
+    width: 200;
+}
+
+.circle_size {
+    height: 200;
+    width: 200;
+}
+
 .circle1 {
-    text-anchor="middle" 
+    text-anchor: middle;
+}
+
+.circle2:hover {
+    stroke: black; 
+    stroke-width: 3;
 }
