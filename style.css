@@ -19,17 +19,8 @@ h1 {
     border-radius: 50%;
     background-color: maroon;
     border: 5px solid black; 
-    color: white;
-    text-anchor: middle;
-}
 
-.c1text {
-    
-    text-anchor: middle;
-    color: aliceblue;
-    text-align: center;
 }
-
 
 .circle2 {
     
@@ -61,3 +52,11 @@ h1 {
     color: white;
     text-align: center;
 }
+
+
+.buttonstyle {
+    
+    background: transparent; 
+    border:  2px solid white;
+}
+    
