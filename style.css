@@ -6,21 +6,57 @@ h1 {
     text-align: center;
 }
 
-svg {
-    height: 200;
-    width: 200;
-}
-
 .circle_size {
     height: 200;
     width: 200;
 }
 
 .circle1 {
+    
+    height: 200px;
+    width: 200px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: maroon;
+    border: 5px solid black; 
+    color: white;
     text-anchor: middle;
 }
 
+.c1text {
+    
+    text-anchor: middle;
+    color: aliceblue;
+    text-align: center;
+}
+
+.circle2 {
+    
+    height: 200px;
+    width: 200px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: lightseagreen; 
+    color: white;
+    text-align: center;
+    
+    
+}
+
 .circle2:hover {
-    stroke: black; 
-    stroke-width: 3;
+    
+    border: 5px solid black; 
+}
+
+
+.circle3{
+    
+    height: 200px;
+    width: 200px;
+    line-height: 20px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    border: 5px solid black; 
+    color: white;
+    text-align: center;
 }
