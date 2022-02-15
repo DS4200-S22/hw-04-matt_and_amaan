@@ -1,6 +1,6 @@
+let clicks = 0;
+
 function circle1Clicked() {
-
-    let rand_num = Math.random(); 
-
-    // Set innerHTML of div
-    document.getElementById("random_num").innerHTML = rand_num; 
+  clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+};

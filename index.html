@@ -10,12 +10,13 @@
 
 <body>
     
-     <h1>Event Handling</h1>
+    <h1>Event Handling</h1>
   <div>  
-    <svg class="circle1">
-        <rect class="btn" x="0" y="0" width="10" height="10" onclick="circle1.style.fill='yellow" />
-        <text x="50%" y="50%" class="circle1">HELLO</text>  
-    </svg>
+    <button type="button" id="button1" onclick="circle1Clicked()">
+        <svg class="circle1">
+            <text x="50%" y="50%" id="clicks">0</text>
+        </svg>
+    </button>  
       
     <svg class="circle2">
         <circle/>
@@ -28,7 +29,7 @@
 </div>
 
     <script type="text/javascript" src="main.js"></script>
-    
+
 </body>
 
 </html>
