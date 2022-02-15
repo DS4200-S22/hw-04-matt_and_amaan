@@ -30,6 +30,13 @@ h1 {
     text-align: center;
 }
 
+rect.btn {
+  stroke:#fff;
+  fill:#fff;
+  fill-opacity:0;
+  stroke-opacity:0;
+}
+
 .circle2 {
     
     height: 200px;
