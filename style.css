@@ -6,48 +6,33 @@ h1 {
     text-align: center;
 }
 
-.circle_size {
-    height: 200;
-    width: 200;
-}
 
 .circle1 {
     
-    height: 200px;
-    width: 200px;
-    line-height: 20px;
-    border-radius: 50%;
-    background-color: maroon;
-    border: 5px solid black; 
+    fill: #800000;
+    stroke: black;
+    stroke-width: 4
 
 }
 
 .circle2 {
     
-    height: 200px;
-    width: 200px;
-    line-height: 20px;
-    border-radius: 50%;
-    background-color: lightseagreen; 
-
-    
-    
+    fill: #20B2AA; 
 }
+
 
 .circle2:hover {
     
-    border: 5px solid black; 
+   stroke: black;
+   stroke-width: 4;
 }
 
 
-.circle3{
+.circle3 {
     
-    height: 200px;
-    width: 200px;
-    line-height: 20px;
-    border-radius: 50%;
-    background-color: lightcoral;
-    border: 5px solid black; 
+    fill: #F08080;
+    stroke: black;
+    stroke-width: 4 
 }
 
 
@@ -57,7 +42,8 @@ h1 {
     border:  2px solid white;
 }
 
-.center{
+
+.center {
     
     display: flex;
     justify-content: space-evenly;
